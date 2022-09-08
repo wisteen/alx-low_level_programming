@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main -  helps you in knowing the size of each int char and float
+ *
+ * Return: out put would be (0) if succefull
+ */
 
 int main(void)
 {
@@ -14,5 +19,4 @@ int main(void)
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
-
 }
