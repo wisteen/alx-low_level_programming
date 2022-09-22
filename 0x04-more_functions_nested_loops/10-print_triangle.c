@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_triangle - print a triangle
  * @size: the size of the triangle
@@ -21,7 +23,7 @@ void print_triangle(int size)
 				}
 				else
 				{
-					_putchar(35);
+					_putchar(30);
 				}
 			}
 			_putchar('\n');
@@ -31,4 +33,13 @@ void print_triangle(int size)
 	{
 		_putchar('\n');
 	}
+}
+
+int main(void)
+{
+
+	print_triangle(10);
+	return 0;
+
+
 }
