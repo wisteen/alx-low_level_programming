@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "Wisteen Technology" && push
+git add . && git commit -m "Wisteen Technology" && git push
