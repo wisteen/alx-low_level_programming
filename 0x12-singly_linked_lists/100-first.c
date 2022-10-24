@@ -1,11 +1,15 @@
-#include "lists.h"
-
+#include <stdio.h>
 /**
- * constructorRun - runs
- *  before main function is executed.
+ * firstfunc - prints before the main function is executed.
+ *
+ * Return: Always 0.
  */
-void constructorRun(void)
+void firstfunc(void) __attribute__ ((constructor));
+
+void firstfunc(void)
 {
-	printf("You're beat! and yet, you must allow,\n"
-		"I bore my house upon my back!\n");
+	char *m;
+
+	m = "You're beat! and yet, you must allow,\nI bore my house upon my back!\n";
+	printf("%s", m);
 }
